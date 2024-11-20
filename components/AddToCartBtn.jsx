@@ -36,7 +36,7 @@ const AddToCartBtn = ({
       onClick={()=>{
         addItem(bike);
         toast({
-          title:`${name} has been added to the cart`
+          title:`${name} has been added to the cart.`
         })
       }}
     >
